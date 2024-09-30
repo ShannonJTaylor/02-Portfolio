@@ -25,12 +25,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
+h6, 
+
+a {
+  margin: 50px; 
 }
 
 p {
-  margin: 0;
+  margin: 50px;
+
 }
 
 header {
@@ -219,26 +222,45 @@ main {
   color: var(--secondary);
 }
 
-/* portfolio project images */
+/* portfolio project images, These will go in the work section */
 /* TODO: Add portfolio project images here using background images*/
-.run-buddy {
-  
+/*Figure out the best way to add photos, save them to the computer? copy a url. How do I 
+save the images to names that make more sense?*/
+
+
+.run-buddy img { 
+display:block;
+margin: ;
+max-width: ;
+max-height: ;
 }
 
-.led-wall {
-  
+.led-wall img {
+display:block;
+margin: ;
+max-width: ;
+max-height: ;
 }
 
-.react-calc {
-  
+.react-calc img {
+display:block;
+margin: ;
+max-width: ;
+max-height: ;
 }
 
-.pastel-puzzles {
-  
+.pastel-puzzles img {
+display:block;
+margin: ;
+max-width: ;
+max-height: ;
 }
 
-.surf-report {
-  
+.surf-report img {
+display:block;
+margin: ;
+max-width: ;
+max-height: ;
 }
 
 /* media queries */
