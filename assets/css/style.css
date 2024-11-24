@@ -229,38 +229,37 @@ save the images to names that make more sense?*/
 
 
 .run-buddy img { 
-background-image display:block;
-background-image margin: ;
-max-width: ;
-max-height: ;
+display: block;
+margin: 0 auto;
+max-width: 100%;
+max-height: auto;
 }
 
 .led-wall img {
-display:block;
-margin: ;
-max-width: ;
-max-height: ;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .react-calc img {
-display:block;
-margin: ;
-max-width: ;
-max-height: ;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .pastel-puzzles img {
-display:block;
-margin: ;
-max-width: ;
-max-height: ;
-}
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: auto;
 
 .surf-report img {
-display:block;
-margin: ;
-max-width: ;
-max-height: ;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: auto;
 }
 
 /* media queries */
