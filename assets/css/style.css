@@ -20,11 +20,6 @@ body {
   line-height: 1.5;
 }
 
-/*
-.background-image-container {
-
-
-*/
 
 h1,
 h2,
@@ -98,10 +93,10 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
+  background-image: url("/assets/images/Avatar1.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
   min-height: 15vh;
   color: var(--light);
   padding: 2% 6%;
@@ -178,7 +173,7 @@ main {
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
-  background-size: 150%;
+  background-size: contain;
   transition: all 0.5s;
   font-size: 0.9rem;
 }
@@ -200,6 +195,7 @@ main {
 
 .flex-item h3 {
   font-size: 1.6rem;
+
 }
 
 .contact address {
@@ -230,11 +226,6 @@ main {
   color: var(--secondary);
 }
 
-/* portfolio project images, These will go in the work section */
-/* TODO: Add portfolio project images here using background images*/
-
-
-
 .run-buddy { 
 background-image: url("/assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg");
 background-size: cover;
@@ -243,64 +234,29 @@ background-position: center;
 
 .led-wall {
 background-image: url("/assets/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg");
-background-size: cover;
+background-size: contain;
 background-position: center;
 }
 
 .react-calc {
 background-image: url("/assets/images/calculator-7832583_1280.png");
-background-size: cover;react-calc
+background-size: contain;
 background-position: center;
 }
 
 .pastel-puzzles {
 background-image: url("/assets/images/pastel-puzzle2.jpg");
-background-size: cover;
+background-size: contain;
 background-position: center;
 }
 
 .surf-report {
 background-image: url("/assets/images/surf-report-image.jpg");
-background-size: cover;
 background-position: center;
+background-size: contain;
 }
 
-/* portfolio project images, These will go in the work section 
-.run-buddy img {
-display: block;
-margin: 0 auto;
-max-width: 100%;
-max-height: auto;
-}
 
-.led-wall img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: auto;
-}
-
-.react-calc img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: auto;
-}
-
-.pastel-puzzles img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: auto;
-}
-
-.surf-report img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: auto;
-}
-*/
 /* media queries */
 
 /* media queries for a max-width of 980px */
