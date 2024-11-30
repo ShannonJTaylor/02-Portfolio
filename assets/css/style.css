@@ -48,8 +48,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: top;
   background-color: var(--tertiary);
+  max-height: 15vh;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
@@ -135,22 +136,24 @@ main {
   padding: 10px 0;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
   margin-left: 20px;
 }
 
 .page-section > h2 {
-  flex: 0 0 20%;
+  flex: 0 0 15%;
   text-align: right;
+  margin: 0;
   padding-right: 15px;
   border-right: 4px solid var(--primary);
-  font-size: 4vw;
+  font-size: 2rem;
   line-height: 1.1;
 }
 
 .page-section > div {
-  flex: 0 0 77%;
+  flex: 1;
+  padding-left: 15px;
 }
 
 .page-section p {
@@ -234,6 +237,37 @@ main {
 
 
 .run-buddy img { 
+background-image: url("/assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.led-wall img {
+background-image: url("/assets/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.react-calc img {
+background-image: url("/assets/images/calculator-7832583_1280.png");
+background-size: cover;react-calc
+background-position: center;
+}
+
+.pastel-puzzles img {
+background-image: url("/assets/images/pastel-puzzle2.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.surf-report img {
+background-image: url("/assets/images/surf-report-image.jpg");
+background-size: cover;
+background-position: center;
+}
+
+/* portfolio project images, These will go in the work section */
+.run-buddy img {
 display: block;
 margin: 0 auto;
 max-width: 100%;
@@ -305,3 +339,86 @@ max-height: auto;
 }
 
 /* TODO: add media query for a max-width of 768px */
+@media screen and (max-width: 768px) {
+  /* Adjust header for smaller screens */
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 12vw; /* Slightly smaller font size than at 980px */
+  }
+
+  header nav {
+    justify-content: center;
+    flex-wrap: wrap; /* Allow nav items to wrap if necessary */
+  }
+
+  nav a {
+    font-size: 1rem; /* Reduce nav link size */
+    margin: 5px; /* Add space between wrapped items */
+  }
+
+  /* Adjust page sections */
+  .page-section {
+    flex-direction: column; /* Stack content vertically */
+    padding: 15px; /* Add padding for better spacing */
+  }
+
+  .page-section > h2 {
+    flex: none;
+    text-align: left;
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 6vw; /* Reduce heading font size */
+  }
+
+  .page-section > div {
+    padding-left: 0; /* Remove extra left padding */
+  }
+
+  /* Adjust flex items in the work section */
+  .flex-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  .flex-item {
+    flex-basis: 90%; /* Make items take up most of the width */
+    margin: 10px 0; /* Add spacing between stacked items */
+    min-height: 120px; /* Adjust height for smaller screens */
+  }
+
+  .flex-item:first-child {
+    min-height: 250px; /* Slightly smaller featured project */
+  }
+
+  /* Adjust hero banner */
+  .hero-banner {
+    flex-direction: column; /* Stack content */
+    text-align: center;
+    padding: 10% 5%;
+  }
+
+  .hero-banner h2 {
+    font-size: 1.5rem; /* Reduce font size */
+  }
+
+  /* Adjust contact section */
+  .contact address {
+    flex-direction: column; /* Stack contact links */
+    text-align: center;
+  }
+
+  .contact address a {
+    font-size: 1rem; /* Reduce link font size */
+    margin: 5px 0; /* Add vertical spacing */
+  }
+}
