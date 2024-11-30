@@ -135,9 +135,8 @@ main {
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: stretch;
   margin-left: 20px;
 }
 
@@ -236,37 +235,37 @@ main {
 
 
 
-.run-buddy img { 
+.run-buddy { 
 background-image: url("/assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg");
 background-size: cover;
 background-position: center;
 }
 
-.led-wall img {
+.led-wall {
 background-image: url("/assets/images/efe-kurnaz-RnCPiXixooY-unsplash.jpg");
 background-size: cover;
 background-position: center;
 }
 
-.react-calc img {
+.react-calc {
 background-image: url("/assets/images/calculator-7832583_1280.png");
 background-size: cover;react-calc
 background-position: center;
 }
 
-.pastel-puzzles img {
+.pastel-puzzles {
 background-image: url("/assets/images/pastel-puzzle2.jpg");
 background-size: cover;
 background-position: center;
 }
 
-.surf-report img {
+.surf-report {
 background-image: url("/assets/images/surf-report-image.jpg");
 background-size: cover;
 background-position: center;
 }
 
-/* portfolio project images, These will go in the work section */
+/* portfolio project images, These will go in the work section 
 .run-buddy img {
 display: block;
 margin: 0 auto;
@@ -301,7 +300,7 @@ max-height: auto;
   max-width: 100%;
   max-height: auto;
 }
-
+*/
 /* media queries */
 
 /* media queries for a max-width of 980px */
