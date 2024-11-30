@@ -20,6 +20,12 @@ body {
   line-height: 1.5;
 }
 
+/*
+.background-image-container {
+
+
+*/
+
 h1,
 h2,
 h3,
@@ -95,7 +101,7 @@ main {
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
-  min-height: 30vh;
+  min-height: 15vh;
   color: var(--light);
   padding: 2% 6%;
   display: flex;
@@ -128,10 +134,10 @@ main {
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
 }
 
 .page-section > h2 {
@@ -224,8 +230,7 @@ main {
 
 /* portfolio project images, These will go in the work section */
 /* TODO: Add portfolio project images here using background images*/
-/*Figure out the best way to add photos, save them to the computer? copy a url. How do I 
-save the images to names that make more sense?*/
+
 
 
 .run-buddy img { 
@@ -254,6 +259,7 @@ max-height: auto;
   margin: 0 auto;
   max-width: 100%;
   max-height: auto;
+}
 
 .surf-report img {
   display: block;
