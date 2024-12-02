@@ -169,6 +169,7 @@ main {
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
+  justify-content: left;
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
@@ -176,6 +177,7 @@ main {
   background-size: contain;
   transition: all 0.5s;
   font-size: 0.9rem;
+  position: relative;
 }
 
 /* feature first portfolio item */
@@ -191,10 +193,16 @@ main {
 .flex-item div {
   background-color: var(--secondary);
   padding: 8px 10px;
+  text-align: left;
+  justify-content: left;
+  width: 10%;
+  display: block;
 }
 
 .flex-item h3 {
   font-size: 1.6rem;
+  color: var(--tertiary);
+  margin: 0;
 
 }
 
